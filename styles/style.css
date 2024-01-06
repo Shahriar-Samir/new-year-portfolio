@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background: url('../images/banner/banner1.png') no-repeat;
+    height: 808px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 230px;
+}
+
+.banner-text h1{
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: end;
+    color:  #151414;
+    margin: 0;
+}
+
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    color: #444343;
+    width: 494px;
+    text-align: right;
+    margin: 0;
+    margin-top: 24px;
+}
+.contact-button{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    margin-top: 32px;
+}
+
+.about-section{
+    margin-top: 140px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.about-img{
+    width: 751px;
+    height: 898px;
+}
+
+.about{
+    margin-left: 135px;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    width: 288px;
+}
+.about-details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+    color: #444343;
+    margin-top: 24px;
+    
+}
+.about-list{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 0;
+    padding-left: 20px;
+    margin-top: 16px;
+}
+
+.my-plan{
+    margin-top: 200px;
+}
+
+.my-plan-title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.goal{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goal h1{
+    margin: 0;
+    margin-bottom: 18px;
+}
+.goal p{
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.advice{
+    background: url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    margin-top: 135px;
+    margin-bottom: 130px;
+}
+
+.advice h1{
+    width: 459px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+.advice-details{
+    padding-left:64px;
+    padding-top: 60px; 
+}
+.advice-details button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    background: #151414;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contact-info{
+    margin-right: 330px;
+}
+
+.contact-info h2{
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 700;
+    color: #F8F8F8; 
+    margin: 0;
+}
+.contact-details{
+    color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+   width: 485px;
+}
+.email{
+    color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+}
+.phone{
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px;
+}
+
+
+
+.subscribe-form form{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+}
+
+.subscribe-form h3{
+    color: #FFF; 
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.subscribe-form input{
+    width: 325px;
+    height: 64px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.subscribe-form button{
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600; 
+    color: #F15B22; 
+    width: 170.106px;
+    height: 64px;
+}
+.social-media img{
+     margin-right: 0.5em;
+}
